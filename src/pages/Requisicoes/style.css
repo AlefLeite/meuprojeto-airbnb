@@ -1,0 +1,19 @@
+.card-pendente{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    background-color: rgb(247, 247, 247);
+    border: 3px solid #ff5a5f;
+    border-radius: 20px;
+    margin-top: 10%;
+    width: 30%;
+    height: 25vh;
+}
+.buttons-pendente{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}

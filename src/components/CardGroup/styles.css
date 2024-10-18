@@ -1,0 +1,30 @@
+.login{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form a{
+    color: black;
+    cursor: pointer;
+    margin-top: 2%;
+    text-decoration: none;
+}
+.form-floating{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.btn-primary{
+    border: none;
+    background: #ff5a5f;
+    width: 30%;
+    margin-left: 0;
+}
+.btn-primary:hover{
+    background: #ff2d34;
+}

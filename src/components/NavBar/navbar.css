@@ -1,0 +1,87 @@
+
+.nav-topo{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px solid #ececec;
+}
+.container{
+    display: flex;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.logo{
+    display: flex;
+    max-width: 140px;
+}
+.col-6{
+    display: flex;
+    align-items: center;
+}
+.link-especial{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+}
+.link-especial:hover{
+    color: black;
+    background-color: #eeee;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.icon-nav{
+    width: 45px;
+    color: #161616;
+    text-decoration: none;
+    text-align: center;
+}
+.icon-nav:hover{
+    color: black;
+    background-color: #eeee;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.mdi-web{
+    font-size: 20px;
+    font-weight: 500;
+}
+.button-login{
+    display: flex;
+    color: gray;
+    width: 80px;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+.button-login:hover{
+    color: gray;
+}
+.dropdown ul{
+    border-radius: 20px;
+}
+
+nav#mobile{
+    height: 70px;
+    width: 100%;
+}
+nav#mobile a{
+    color: #ccc;
+    text-decoration: none;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    width: 100%;
+}
+nav#mobile a:focus{
+    color: #838383;
+}
+
+nav#mobile a.active{
+    color: #ff5a5f;
+    border-top: 3px solid #ff5a5f;
+}
+
+
+

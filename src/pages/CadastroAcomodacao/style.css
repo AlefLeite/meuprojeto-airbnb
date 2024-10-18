@@ -1,0 +1,28 @@
+.container-cadastra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 50vh;
+    border: 5px solid #ff5a5f;
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px 5px;
+    width: 100%;
+    margin-top: 20%;
+}
+.button-cadastra{
+    height: 4vh;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff5a5f;
+    margin-left: 0;
+    width: 30%;
+}
+.input-floating{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}

@@ -1,0 +1,17 @@
+.btn-ir-para-inicio {
+  width: 10%;
+  background-color: #ff5a5f;
+  border: 3px solid #111;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.btn-ir-para-inicio a {
+  text-decoration: none;
+  color: white;
+}
+.centraliza-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
